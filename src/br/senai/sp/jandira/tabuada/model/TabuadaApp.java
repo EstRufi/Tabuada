@@ -1,7 +1,7 @@
 package br.senai.sp.jandira.tabuada.model;
 import java.util.Scanner;
 
-public class TabuadaComLoopApp {
+public class TabuadaApp {
 
     public int multiplicando;
     public int multiplicadorInicial;
@@ -46,6 +46,7 @@ public class TabuadaComLoopApp {
         }
         exibirTabuada();
     }
+
 
     public void exibirTabuada(){
         System.out.println("O resultado que você pediu da Tabuada !!!");
